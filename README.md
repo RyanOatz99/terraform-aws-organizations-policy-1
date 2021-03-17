@@ -1,6 +1,6 @@
-# Terraform Module Template
+# Organizations Policy
 
-![Terraform Module Template](terraform\_module\_template.png)
+![Organizations Policy](aws\_organizations\_policy.png)
 
 ## Requirements
 
@@ -8,11 +8,18 @@ No requirements.
 
 ## Providers
 
-No provider.
+| Name | Version |
+|------|---------|
+| aws | n/a |
 
 ## Inputs
 
-No input.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| content | Content of the policy | `any` | n/a | yes |
+| name | Policy name | `any` | n/a | yes |
+| policy\_targets | A list of target ids for attaching organizations policies | `list` | `[]` | no |
+| type | Policy type (default is SERVICE\_CONTROL\_POLICY) | `any` | `null` | no |
 
 ## Outputs
 
