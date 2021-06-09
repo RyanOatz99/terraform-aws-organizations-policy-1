@@ -2,6 +2,8 @@
 
 ![Organizations Policy](aws\_organizations\_policy.png)
 
+![main workflow](https://github.com/figurate/terraform-aws-organizations-policy/actions/workflows/main.yml/badge.svg)
+
 ## Requirements
 
 No requirements.
